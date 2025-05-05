@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .about-section {
+      padding: 21px 0;
+      background: #f8f9fa;
+    }
+    .about-card {
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border-radius: 12px;
+    }
+    .about-img {
+        border-radius: 12px 12px 0 0;
+        max-height: 442px;
+        object-fit: cover;
+        width: 400px;
+        align-self: center;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">TextUtils</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about">About</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+  <div class="container about-section">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card about-card">
+          <img src="https://user-images.githubusercontent.com/94471189/193782622-db0071f8-122e-4909-83a8-fe5da257febc.png" alt="About Image" class="about-img">
+          <div class="card-body">
+            <h2 class="card-title text-center mb-3">About Us</h2>
+            <p class="card-text text-muted">
+              Welcome to <strong>textUtils</strong> — your simple and efficient text editing tool built with Django. The main text services are remove punctuation, capitalize and covert to lower case - we've got you covered.
+            </p>
+            <p class="card-text">
+              Built by <strong>FathCodex</strong> using Django, Bootstrap, and a love for clean code!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
